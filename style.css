@@ -1,0 +1,144 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+ 
+
+    color: white;
+}
+.header_font{
+    background-image: url(./images/desktop/image-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+    width: 100%;
+    height: 100vh;
+}
+header{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 1.5rem;
+    
+
+ 
+}
+header a{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+  
+}
+
+nav{
+    margin-right: 3vh;
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+
+}
+nav input{
+    background-color: rgba(240, 248, 255, 0.466);
+    padding: 2vh;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    border-radius: 7vh;
+    border-color: white;
+    border: none;
+    color: white;
+}
+
+div.logo{
+    margin-left: 5vh;
+    color: white;
+    font-weight: bold;
+    font-size: 2.2rem;
+}
+div.txt{
+    text-align: center;
+    align-items: center;
+    line-height: 25vh;
+    letter-spacing: 1vh;
+}
+
+.contain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.arrow{
+    max-width: 100%;
+   
+}
+section.first_sec {
+    display: flex;
+    flex-wrap: wrap;
+}
+div.box{
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    box-sizing: border-box;
+}
+.box{
+    width: 50%;
+    box-sizing: border-box;
+    
+}
+.imgc{
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+}
+.transform{
+    color: rgba(0, 0, 0, 0.849);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.we{
+    color: rgba(035, 048, 64); 
+}
+.lrn{
+    margin-top: 04vh;
+   
+
+}
+P.learn {
+ 
+
+    display: inline;
+    margin-left: 8vh;
+    color: #000000;
+    border-bottom: 9px solid rgb(230, 230, 34);
+    padding-bottom: -4vh;
+    border-radius: 5px;
+}
+
+P.learn2 {
+ 
+
+    display: inline;
+    margin-left: 8vh;
+    color: #000000;
+    border-bottom: 9px solid rgba(235, 9, 9, 0.671);
+    padding-bottom: -4vh;
+    border-radius: 5px;
+}
+.tr{
+    display: flex;
+    margin-left: 8vh;
+    margin-top: 25vh;
+}
+.tl{
+    margin-left: 8vh;
+    margin-top: 5vh;
+}
